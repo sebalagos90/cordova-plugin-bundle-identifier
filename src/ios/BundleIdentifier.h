@@ -3,6 +3,7 @@
 //
 //  Created by Calvin Lai on 8/11/13.
 //
+//  Modified by Sebastian Lagos on 9/1/2017
 //
 
 #import <Foundation/Foundation.h>
@@ -12,15 +13,8 @@
 
 @interface BundleIdentifier : CDVPlugin {
 
-  NSMutableDictionary* callbackIds;
-//    NSString * phoneNumber;
-//    NSString * messageText;
-
 }
 
-@property (nonatomic, retain) NSMutableDictionary* callbackIds;
-//@property (nonatomic, retain) NSString *phoneNumber;
-//@property (nonatomic, retain) NSString *messageText;
 
 - (void)get:(CDVInvokedUrlCommand*)command;
 
